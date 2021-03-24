@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Usage as Compound } from "./patterns/compound/Usage";
+import { Usage as CompoundComponent } from "./patterns/compound-component/Usage";
 import { Usage as ControlProps } from "./patterns/control-props/Usage";
 import { Usage as CustomHooks } from "./patterns/custom-hooks/Usage";
 import { Usage as PropsGetters } from "./patterns/props-getters/Usage";
@@ -33,7 +33,7 @@ export default function App() {
 
       <StyledPatternContainer>
         <h2>Compound component pattern</h2>
-        <Compound />
+        <CompoundComponent />
       </StyledPatternContainer>
 
       <StyledPatternContainer>
