@@ -1,5 +1,8 @@
 # Getting Started with Advanced React Patterns
 
+Repository used within the article : https://javascript.plainenglish.io/5-advanced-react-patterns-a6b7624267a6
+
+
 ## Available Scripts
 
 In the project directory, you can run:
