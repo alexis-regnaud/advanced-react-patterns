@@ -2,12 +2,6 @@ import React from "react";
 
 const CounterContext = React.createContext(undefined);
 
-function CounterProvider({ children, value }) {
-  return (
-    <CounterContext.Provider value={value}>{children}</CounterContext.Provider>
-  );
-}
-
 function useCounterContext() {
   const context = React.useContext(CounterContext);
   if (context === undefined) {
@@ -16,4 +10,4 @@ function useCounterContext() {
   return context;
 }
 
-export { CounterProvider, useCounterContext };
+export { CounterProvider: CounterContext.Provider, useCounterContext };
